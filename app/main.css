@@ -190,7 +190,7 @@ textarea.tall-textarea {
   left: 0;
   bottom: 0;
   right: 0;
-  background-color: rgba(48, 47, 47, 0.733);
+  background-color: rgba(215, 215, 215, 0.911);
 }
 
 .search-overlay-enter {
@@ -216,21 +216,19 @@ textarea.tall-textarea {
 }
 
 .search-overlay-icon {
-  color: #979797;
+  color: #007bff;
   font-size: 1.4rem;
   margin: 0;
   margin-right: 10px;
 }
-.fa-times-circle{
-  color:#969696
-}
+
 .live-search-field {
   background-color: transparent;
   border: none;
   font-size: 1.1rem;
   outline: none;
   flex: 1;
-  color: #dfdfdf;
+  color: #007bff;
 }
 
 .live-search-results {
@@ -268,11 +266,9 @@ textarea.tall-textarea {
   cursor: pointer;
   opacity: 0.75;
   line-height: 1;
-  color: #1b1b1bee;
+  color: #292929;
 }
-.list-group-item.active{
-  border: black;
-}
+
 @media (min-width: 700px) {
   .live-search-field {
     font-size: 2.5rem;

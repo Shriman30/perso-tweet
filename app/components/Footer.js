@@ -18,13 +18,11 @@ function Footer() {
         </Link>
       </p>
       <p className="m-0">
-        Copyright &copy; 2021.{" "} All rights reserved.<br/>
-        This application was developed for educational and entertainment purposes {" "}<br/>
-        <a href="https://www.linkedin.com/in/shriman-vinayagamoorthy-3941a81a8" className="text-muted">
-          by<br/> Shriman Vinayagamoorthy
+        Copyright &copy; 2020{" "}
+        <a href="/" className="text-muted">
+          ComplexApp
         </a>
-        <br/>
-        Email: shriman30@hotmail.com
+        . All rights reserved.
       </p>
     </footer>
   )

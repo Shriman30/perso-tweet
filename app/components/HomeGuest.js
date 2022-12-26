@@ -194,8 +194,8 @@ function HomeGuest() {
     <Page title="Welcome!" wide={true}>
       <div className="row align-items-center">
         <div className="col-lg-7 py-3 py-md-5">
-          <h1 className="display-3">Tweet in Your Circle!</h1>
-          <p className="lead text-muted">Tired of unwanted tweets and &ldquo;shared&rdquo; posts ? Get back to writing and sharing posts between only those in your circle! It is afterall the key to truly enjoying the Internet once again.</p>
+          <h1 className="display-3">Remember Writing?</h1>
+          <p className="lead text-muted">Are you sick of short tweets and impersonal &ldquo;shared&rdquo; posts that are reminiscent of the late 90&rsquo;s email forwards? We believe getting back to actually writing is the key to enjoying the internet again.</p>
         </div>
         <div className="col-lg-5 pl-lg-5 pb-3 py-lg-5">
           <form onSubmit={handleSubmit}>
@@ -226,8 +226,8 @@ function HomeGuest() {
                 <div className="alert alert-danger small liveValidateMessage">{state.password.message}</div>
               </CSSTransition>
             </div>
-            <button type="submit" className="py-3 mt-4 btn btn-lg btn-dark btn-block">
-              Sign up to Perso-Tweet
+            <button type="submit" className="py-3 mt-4 btn btn-lg btn-success btn-block">
+              Sign up for ComplexApp
             </button>
           </form>
         </div>
