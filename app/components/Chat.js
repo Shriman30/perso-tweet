@@ -88,7 +88,7 @@ function Chat() {
                 <img className="avatar-tiny" src={message.avatar} />
               </Link>
               <div className="chat-message">
-                <div className="chat-message-inner">
+                <div className="chat-message-inner bg-dark">
                   <Link to={`/profile/${message.username}`}>
                     <strong>{message.username}: </strong>
                   </Link>
