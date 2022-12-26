@@ -18,11 +18,13 @@ function Footer() {
         </Link>
       </p>
       <p className="m-0">
-        Copyright &copy; 2020{" "}
-        <a href="/" className="text-muted">
-          ComplexApp
+        Copyright &copy; 2020{" "}. All rights reserved.<br/>
+        This web app was created for entertainment and education purposes only<br/>
+        <a href="https://www.linkedin.com/in/shriman-vinayagamoorthy-3941a81a8" className="text-muted">
+          by Shriman Vinayagamoorthy
         </a>
-        . All rights reserved.
+        
+
       </p>
     </footer>
   )

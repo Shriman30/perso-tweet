@@ -73,7 +73,7 @@ function Search() {
 
   return (
     <>
-      <div className="search-overlay-top shadow-sm">
+      <div className="search-overlay-top shadow-sm bg-dark">
         <div className="container container--narrow">
           <label htmlFor="live-search-field" className="search-overlay-icon">
             <i className="fas fa-search"></i>
@@ -86,12 +86,12 @@ function Search() {
       </div>
 
       <div className="search-overlay-bottom">
-        <div className="container container--narrow py-3">
+        <div className="container container--narrow py-3 ">
           <div className={"circle-loader " + (state.show == "loading" ? "circle-loader--visible" : "")}></div>
           <div className={"live-search-results " + (state.show == "results" ? "live-search-results--visible" : "")}>
             {Boolean(state.results.length) && (
               <div className="list-group shadow-sm">
-                <div className="list-group-item active">
+                <div className="list-group-item active bg-dark">
                   <strong>Search Results</strong> ({state.results.length} {state.results.length > 1 ? "items" : "item"} found)
                 </div>
                 {state.results.map((post) => {

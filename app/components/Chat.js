@@ -63,7 +63,7 @@ function Chat() {
 
   return (
     <div id="chat-wrapper" className={"chat-wrapper shadow border-top border-left border-right " + (appState.isChatOpen ? "chat-wrapper--is-visible" : "")}>
-      <div className="chat-title-bar bg-primary">
+      <div className="chat-title-bar bg-dark">
         Chat
         <span onClick={() => appDispatch({ type: "closeChat" })} className="chat-title-bar-close">
           <i className="fas fa-times-circle"></i>
@@ -75,7 +75,7 @@ function Chat() {
             return (
               <div key={index} className="chat-self">
                 <div className="chat-message">
-                  <div className="chat-message-inner">{message.message}</div>
+                  <div className="chat-message-inner bg-dark">{message.message}</div>
                 </div>
                 <img className="chat-avatar avatar-tiny" src={message.avatar} />
               </div>

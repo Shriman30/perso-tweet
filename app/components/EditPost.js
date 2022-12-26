@@ -163,7 +163,7 @@ function EditPost(props) {
           {state.body.hasErrors && <div className="alert alert-danger small liveValidateMessage">{state.body.message}</div>}
         </div>
 
-        <button className="btn btn-primary" disabled={state.isSaving}>
+        <button className="btn btn-dark" disabled={state.isSaving}>
           Save Updates
         </button>
       </form>

@@ -42,7 +42,7 @@ function CreatePost(props) {
           <textarea onChange={e => setBody(e.target.value)} name="body" id="post-body" className="body-content tall-textarea form-control" type="text"></textarea>
         </div>
 
-        <button className="btn btn-primary">Save New Post</button>
+        <button className="btn btn-dark">Save New Post</button>
       </form>
     </Page>
   )

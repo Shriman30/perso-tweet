@@ -216,19 +216,24 @@ textarea.tall-textarea {
 }
 
 .search-overlay-icon {
-  color: #007bff;
+  color: #999999;
   font-size: 1.4rem;
   margin: 0;
   margin-right: 10px;
 }
-
+.fa-times-circle{
+  color:#9a9a9a;
+}
+.list-group-item.active{
+  border: black;
+}
 .live-search-field {
   background-color: transparent;
   border: none;
   font-size: 1.1rem;
   outline: none;
   flex: 1;
-  color: #007bff;
+  color: #9e9e9e;
 }
 
 .live-search-results {
